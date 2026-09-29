@@ -12,7 +12,7 @@
 
 :root {
     /*====Body====*/
-    --body-background-color: #00a078;
+    --body-background-color: #000c50;
 
     /*====Buttons and links====*/
     --button-color: #ffffff;
@@ -20,8 +20,8 @@
     --button-text-color: #000000;
 
     /*====Carts====*/
-    --cart-border-color: #ffffff;
-    --cart-background-color: linear-gradient(to top right, rgba(255, 255, 255, 0.313), rgba(255, 255, 255, 0.497));
+    --cart-border-color: #ffffffff;
+    --cart-background-color: linear-gradient(to top right, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.342));
     --cart-text-color: #000000;
 
     /*====Titles====*/
@@ -32,19 +32,28 @@
 
 body, html {
     background-color: var(--body-background-color);
-    color: #000000;
+    color: #ffffff;
     font-family: 'Tajawal', sans-serif;
     text-align: center;
     min-height: 100vh;
 }
 
 h1 {
+    color: black;
+    font-family: 'Orbitron', sans-serif;
     border: 2px solid var(--title-border-color);
     background: var(--title-background);
     display: inline-block;
     border-radius: 20px;
+    box-shadow: 0  0 10px cyan;
     padding: 10px;
     margin: 20px;
+    transition: all .9s;
+}
+
+h1:hover {
+    box-shadow: 0 0 20px cyan, 0 0 40px cyan;
+    transform: translateY(-8px);
 }
 
 .btn-link {
@@ -62,7 +71,7 @@ h1 {
 }
 
 .card {
-    border: 3px solid var(--cart-border-color);
+    border: 1px solid var(--cart-border-color);
     background: var(--cart-background-color);
     color: var(--cart-text-color);
     border-radius: 10px;
@@ -79,8 +88,7 @@ h1 {
     box-shadow: 8px 8px 8px rgb(0, 0, 0);
 }
 hr {
-    background-color: #000000;
+    background-color: #ffffff48;
     border: none;
     height: 2px;
-    width: 100px;
 }
