@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&display=swap');
+
 @font-face {
     font-family: 'Tajawal';
     src: url(fonts/Tajawal-Regular.ttf);
-    weight: 400;
+    font-width: 400;
 }
 
 @font-face {
     font-family: 'Tajawal';
     src: url(fonts/Tajawal-Bold.ttf);
-    weight: 700;
+    font-width: 700;
 }
 
 :root {
@@ -39,10 +41,9 @@ body, html {
 }
 
 h1 {
-    color: black;
     font-family: 'Orbitron', sans-serif;
+    font-style: oblique;
     border: 2px solid var(--title-border-color);
-    background: var(--title-background);
     display: inline-block;
     border-radius: 20px;
     box-shadow: 0  0 10px cyan;
