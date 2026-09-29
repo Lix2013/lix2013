@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- الخلفية الداكنة متناسقة مع #000c50 -->
+  <rect width="64" height="64" rx="16" fill="#000c50"/>
+  
+  <!-- إطار مضيء خفيف -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="#00ffff" stroke-width="1.5" stroke-opacity="0.4"/>
+  
+  <!-- حرف L المضيء بأسلوب النيون -->
+  <path d="M20 18 V46 H44" fill="none" stroke="#00ffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="drop-shadow(0px 0px 4px #00ffff)"/>
+  
+  <!-- نقطة المطور / المؤشر (Cursor) -->
+  <circle cx="44" cy="22" r="3.5" fill="#ffffff" filter="drop-shadow(0px 0px 3px #ffffff)"/>
+</svg>
