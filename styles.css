@@ -3,13 +3,13 @@
 @font-face {
     font-family: 'Tajawal';
     src: url(fonts/Tajawal-Regular.ttf);
-    font-width: 400;
+    font-weight: 400;
 }
 
 @font-face {
     font-family: 'Tajawal';
     src: url(fonts/Tajawal-Bold.ttf);
-    font-width: 700;
+    font-weight: 700;
 }
 
 :root {
@@ -92,4 +92,29 @@ hr {
     background-color: #ffffff48;
     border: none;
     height: 2px;
+}
+
+.loader {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+
+    background-color: #dedede6a;
+}
+
+.loader-inner {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+
+    background-color: black;
+}
+
+.loader-inner {
+    animation: loader 3s;
+}
+
+@keyframes loader {
+    0% {width: 10%;}
+    100% {width: 100%;}
 }
