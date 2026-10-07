@@ -1,6 +1,6 @@
 let title = document.getElementById("typewriter");
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-let texts = [" is a programer", " is a developer", " is a student"];
+let texts = [" is a programmer", " is a developer", " is a student"];
 let text = "";
 
 async function main() {
