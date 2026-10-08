@@ -1,6 +1,10 @@
 # Hello !
 ## I'm Lix
 <img src="favicon.svg">
-I'm a programer and game developer
+## I'm a programer and game developer
+
 
 <img src="i-am-programer.jpg">
+
+## My website :
+<a href="https://lix.is-a.dev/">
