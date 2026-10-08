@@ -10,4 +10,8 @@
 ## My website :
 <a href="https://lix.is-a.dev/">lix.is-a.dev</a>
 
-# <h1 style="font-family: 'Orbitron', sans-serif; font-style: oblique; border: 2px solid white; display: inline-block; border-radius: 20px; box-shadow: 0  0 10px cyan; padding: 10px; margin: 20px; transition: all .3s;"> I'm lix </h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://vercel.app">
+  <source media="(prefers-color-scheme: light)" srcset="https://vercel.app">
+  <img alt="I'm lix" src="https://vercel.app">
+</picture>
