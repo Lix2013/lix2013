@@ -9,5 +9,3 @@
 
 ## My website :
 <a href="https://lix.is-a.dev/">lix.is-a.dev</a>
-
-# <img src="https://vercel.app" />
