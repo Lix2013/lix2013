@@ -1,26 +1,24 @@
 let title = document.getElementById("typewriter");
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 let texts = ["Welcome to my projects", "I have a mini projects"];
+let text = "";
 
 async function main() {
     let textIndex = 0;
     while (true) {
-        let currentText = texts[textIndex];
+        text = texts[textIndex];
 
-        for (let i = 0; i <= currentText.length; i++) {
+        for (let i = 0; i < text.length; i++) {
             await delay(100);
-
-            title.innerHTML = `| - ${currentText.substring(0, i)} -|`;
+            title.innerHTML = title.innerHTML + text[i];
         }
 
-        await delay(1500);
+        await delay(1000);
 
-        for (let i = currentText.length; i >= 0; i--) {
-            await delay(50);
-            title.innerHTML = `| - ${currentText.substring(0, i)} -|`;
+        for (let i = text.length; i > 0; i--) {
+            await delay(100);
+            title.innerHTML = title.textContent.slice(0, -1);
         }
-
-        await delay(500);
 
         textIndex = (textIndex + 1) % texts.length;
     }
