@@ -24,7 +24,7 @@
     /*====Carts====*/
     --cart-border-color: #ffffffff;
     --cart-background-color: linear-gradient(to top right, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.342));
-    --cart-text-color: #000000;
+    --cart-text-color: #000054;
 
     /*====Titles====*/
     --title-color: #000000;
@@ -34,7 +34,7 @@
 
 body, html {
     background-color: var(--body-background-color);
-    color: #ffffff;
+    color: white;
     font-family: 'Tajawal', sans-serif;
     text-align: center;
     min-height: 100vh;
@@ -50,6 +50,7 @@ h1 {
     padding: 10px;
     margin: 20px;
     transition: all .3s;
+    color: cyan;
 }
 
 h1:hover {
@@ -70,18 +71,19 @@ h1:hover {
 .btn-link:hover {
     background-color: var(--button-hover-color);
 }
-
+/**/
 .card {
     border: 1px solid var(--cart-border-color);
     background: var(--cart-background-color);
     color: var(--cart-text-color);
     border-radius: 10px;
     padding: 20px;
-    max-width: 350px;
+    max-width: 450px;
     text-align: left;
     margin: 30px auto;
     transition: .3s ease-in;
     box-shadow: 4px 4px 4px rgb(0, 0, 0);
+    text-align: right;
 }
 
 .card:hover {
@@ -130,7 +132,7 @@ hr {
 
 a {
     display: inline-block;
-    background-color: #fefefe1a;
+    background-color: #fefefe5a;
     color: white;
     padding: 10px;
     border: 1px solid white;
@@ -146,9 +148,10 @@ a:hover {
 }
 
 .current-page {
-    background-color: #ededed51;
+    background-color: #00e1ff79;
+    color: #000000;
 }
 
 .current-page:hover {
-    background-color: #f5f5f579;
+    background-color: rgba(0, 255, 255, 0.675);
 }
