@@ -65,8 +65,6 @@ Hey! I'm Lix, a developer from Algeria 🇩🇿 who enjoys programming, experime
 
 [![Koyot OS](https://img.shields.io/badge/Explore-Koyot_OS-1677FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lix2013/koyot-os)
 
-### <a href="https://github.com/Lix2013/koyot-os">المشروع على Github</a>
-
 </div>
 
 A place to explore low-level programming, operating system development, and the fundamentals behind how computers boot and run software.
