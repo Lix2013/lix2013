@@ -1,3 +1,5 @@
+/*V : 1.0.2*/
+
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&display=swap');
 
 @font-face {
@@ -80,7 +82,7 @@ h1:hover {
 .btn-link:hover {
     background-color: var(--button-hover-color);
 }
-/**/
+
 .card {
     border: 1px solid var(--cart-border-color);
     background: var(--cart-background-color);
