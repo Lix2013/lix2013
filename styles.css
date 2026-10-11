@@ -92,7 +92,6 @@ h1:hover {
     margin: 30px auto;
     transition: .3s ease-in;
     text-align: right;
-    max-height: 270px;
 }
 
 .card:hover {
