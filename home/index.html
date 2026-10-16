@@ -1,61 +1,74 @@
-<!--V : 1.0.2-->
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lix</title>
+    <title>Lix - الصفحة الرئيسية</title>
 
     <link rel="icon" type="image/png" href="../favicon.svg">
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <p style="font-size: 20px;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg" alt="علم فلسطين" width="40" style="vertical-align: middle; border-radius: 3px;"> 
-        ✊ Free Palestine ✊
-         <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg" alt="علم فلسطين" width="40" style="vertical-align: middle; border-radius: 3px;">
-    </p>
-    <hr>
-    <div class="card">
-        <hr>
-        <p> <div class="dot-cyan"></div> تنقل</p>
+    <!-- قسم علم فلسطين -->
+    <div class="palestine-banner">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg" alt="علم فلسطين" width="35" style="vertical-align: middle; border-radius: 3px;"> 
+        <span>✊ Free Palestine ✊</span>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg" alt="علم فلسطين" width="35" style="vertical-align: middle; border-radius: 3px;">
+    </div>
     
-        <hr class="line">
-        <div class="link-con"><a class="current-page" href="./">الصفحة الرئيسية</a></div>
-        <hr class="line">
-        <a href="../my-projects/">مشاريعي</a>
-        <hr class="line">
-        <hr>
+    <hr>
+
+    <!-- شريط التنقل -->
+    <div class="card nav-card">
+        <p><div class="dot-cyan"></div> تنقل</p>
+        <hr class="divider-line">
+        <div class="nav-links">
+            <a class="current-page" href="./">الصفحة الرئيسية</a>
+            <a href="../my-projects/">مشاريعي</a>
+        </div>
     </div>
+
     <hr>
-    <h1 id="title">Hello, I'm Lix</span></h1>
+
+    <!-- العنوان الرئيسي -->
+    <h1 id="title">Hello, I'm Lix</h1>
+
     <hr>
+
+    <!-- نبذة تعريفية -->
     <div class="card">
-        <h2> انا اياد المدعو ب lix</h2>
-        <h2>انا مطور العاب و مواقع بسيط</h2>
+        <h2>أنا ليكس، المدعو بـ Lix</h2>
+        <h2>أنا مطور ألعاب ومواقع بسيط</h2>
     </div>
+
     <hr>
+
+    <!-- تفاصيل عني -->
     <div class="card">
         <h2>تعريف عني</h2>
         <ul>
             <li>اسمي : Lix</li>
-            <li>اتقن البرمجة بلغات مثل</li>
-            <ul>
-                <li> <div class="dot-cyan" style="background-color: blue;"></div> python</li>
-                <li> <div class="dot-cyan" style="background-color: lightblue;"></div> c++</li>
-                <li> <div class="dot-cyan" style="background-color: green;"></div> c#</li>
-                <li> <div class="dot-cyan"></div> GD script</li>
-                <li> <div class="dot-cyan" style="background-color: orange;"></div> HTML/CSS/JavaScript</li>
-                <li> <div class="dot-cyan" style="background-color: red;"></div> Rust</li>
+            <li>اتقن البرمجة بلغات مثل:</li>
+            <ul class="skills-list">
+                <li><div class="dot-cyan" style="background-color: blue;"></div> Python</li>
+                <li><div class="dot-cyan" style="background-color: lightblue;"></div> C++</li>
+                <li><div class="dot-cyan" style="background-color: green;"></div> C#</li>
+                <li><div class="dot-cyan"></div> GDScript</li>
+                <li><div class="dot-cyan" style="background-color: orange;"></div> HTML / CSS / JavaScript</li>
+                <li><div class="dot-cyan" style="background-color: red;"></div> Rust</li>
             </ul>
-            <li>قد يبدو العدد كبيرا الا انني احس ان خبرتي قليلة</li>
+            <li style="margin-top: 10px;">قد يبدو العدد كبيراً إلا أنني أحس أن خبرتي قليلة</li>
         </ul>
     </div>
 
     <hr>
 
-    <p style="display: inline-block; font-size: 20px;">روابط :</p>
-    <a href="https://github.com/Lix2013">حسابي على Github</a>
+    <!-- روابط التواصل -->
+    <div class="card" style="text-align: center;">
+        <p style="font-size: 18px; margin-bottom: 10px;">روابط التواصل:</p>
+        <a href="https://github.com/Lix2013" target="_blank">حسابي على Github</a>
+    </div>
+
     <hr>
 
     <script src="index.js"></script>

@@ -1,37 +1,27 @@
-/*V : 1.0.2*/
+/* V : 1.0.3 */
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&display=swap');
 
 @font-face {
     font-family: 'Tajawal';
-    src: url(fonts/Tajawal-Regular.ttf);
+    src: url('fonts/Tajawal-Regular.ttf');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Tajawal';
-    src: url(fonts/Tajawal-Bold.ttf);
+    src: url('fonts/Tajawal-Bold.ttf');
     font-weight: 700;
 }
 
 :root {
-    /*====Body====*/
     --body-background-color: #00041a;
-
-    /*====Buttons and links====*/
     --button-color: #ffffff;
     --button-hover-color: #005772;
     --button-text-color: #000000;
-
-    /*====Carts====*/
-    --cart-border-color: rgba(255, 255, 255, 0.385);
-    --cart-background-color: linear-gradient(to top left, rgba(16, 0, 162, 0.471), rgba(15, 15, 15, 0.075));
+    --cart-border-color: rgba(255, 255, 255, 0.2);
+    --cart-background-color: linear-gradient(to top left, rgba(16, 0, 162, 0.3), rgba(15, 15, 15, 0.1));
     --cart-text-color: #ffffff;
-
-    /*====Titles====*/
-    --title-color: #000000;
-    --title-background: linear-gradient(to top left, #ffffff2a, #ffffffab);
-    --title-border-color: #ffffff;
 }
 
 body, html {
@@ -40,6 +30,8 @@ body, html {
     font-family: 'Tajawal', sans-serif;
     text-align: center;
     min-height: 100vh;
+    margin: 0;
+    padding: 20px 0;
 }
 
 .dot-cyan {
@@ -49,16 +41,17 @@ body, html {
     background-color: #36d6aa;
     border-radius: 50%;
     vertical-align: middle;
+    margin-left: 5px;
 }
 
 h1 {
     font-family: 'Orbitron', sans-serif;
     font-style: oblique;
-    border: 2px solid var(--title-border-color);
+    border: 2px solid rgba(0, 225, 255, 0.5);
     display: inline-block;
     border-radius: 20px;
-    box-shadow: 0  0 10px cyan;
-    padding: 10px;
+    box-shadow: 0 0 10px cyan;
+    padding: 12px 25px;
     margin: 20px;
     transition: all .3s;
     color: cyan;
@@ -66,98 +59,89 @@ h1 {
 
 h1:hover {
     box-shadow: 0 0 20px cyan, 0 0 40px cyan;
-    transform: translateY(-8px);
-}
-
-.btn-link {
-    background-color: var(--button-color);
-    color: var(--button-text-color);
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    width: 150px;
-    transition: .4s all;
-}
-
-.btn-link:hover {
-    background-color: var(--button-hover-color);
+    transform: translateY(-5px);
 }
 
 .card {
     border: 1px solid var(--cart-border-color);
     background: var(--cart-background-color);
     color: var(--cart-text-color);
-    border-radius: 10px;
+    border-radius: 12px;
     padding: 20px;
-    max-width: 450px;
-    text-align: left;
-    margin: 30px auto;
-    transition: .3s ease-in;
+    max-width: 480px;
+    margin: 20px auto;
+    transition: .3s ease-in-out;
     text-align: right;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .card:hover {
-    transform: translateY(-8px);
+    transform: translateY(-5px);
+    border-color: rgba(0, 225, 255, 0.4);
 }
+
+.card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card ul {
+    padding-right: 20px;
+    margin: 5px 0;
+}
+
+.card li {
+    margin: 6px 0;
+}
+
 hr {
-    background-color: #ffffff48;
+    background-color: #ffffff20;
     border: none;
-    height: 2px;
+    height: 1px;
+    max-width: 600px;
+    margin: 20px auto;
 }
 
-.line {
-    background-color: #ffffff48;
-    border: none;
-    height: 40px;
-    display: inline-block;
-    width: 2px;
-    vertical-align: middle;
-}
-
-.loader {
-    width: 100%;
-    height: 30px;
-    border-radius: 10px;
-
-    background-color: #dedede6a;
-}
-
-.loader-inner {
-    border-radius: 10px;
-    width: 100%;
-    height: 100%;
-
-    background-color: black;
-}
-
-.loader-inner {
-    animation: loader 3s;
-}
-
-@keyframes loader {
-    0% {width: 10%;}
-    100% {width: 100%;}
-}
-
+/* تنسيق الروابط العامة داخل الموقع */
 a {
     display: inline-block;
-    background-color: #fefefe5a;
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    border: 1px solid white;
-    border-radius: 10px;
-
+    background-color: rgba(255, 255, 255, 0.08);
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    text-decoration: none;
     transition: all .3s;
 }
 
 a:hover {
-    transform: translateY(-8px);
+    background-color: rgba(0, 225, 255, 0.2);
+    border-color: cyan;
+    transform: translateY(-3px);
 }
 
+/* صفحة التنقل الحالية */
 .current-page {
     background-color: #00e1ff;
+    color: #000000;
+    font-weight: bold;
+    border-color: #00e1ff;
 }
 
-.link-con {
-    display: inline;
+.current-page:hover {
+    background-color: rgb(168, 255, 255);
+    border: 2px solid #000000;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.palestine-banner {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
