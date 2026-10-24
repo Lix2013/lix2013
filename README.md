@@ -46,7 +46,7 @@ Hey! I'm Lix, a developer from Algeria 🇩🇿 who enjoys programming, experime
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=rust,c,cpp,python,cs,html,css,js,git,github,vscode&theme=dark" alt="Programming languages and development tools" />
+<img src="https://skillicons.dev/icons?i=rust,c,cpp,python,cs,html,css,js,git,ts,github,godot,vscode&theme=dark" alt="Programming languages and development tools" />
 
 </div>
 
