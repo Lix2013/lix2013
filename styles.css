@@ -130,7 +130,7 @@ a:hover {
 
 .current-page:hover {
     background-color: rgba(0, 249, 249, 0.427);
-    border: 2px solid #00e1ff;
+    border: 1px solid #00e1ff;
 }
 
 .nav-links {
