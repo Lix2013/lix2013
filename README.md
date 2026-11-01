@@ -46,9 +46,15 @@ Hey! I'm Lix, a developer from Algeria 🇩🇿 who enjoys programming, experime
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=rust,c,cpp,python,cs,html,css,js,git,ts,github,godot,vscode&theme=dark" alt="Programming languages and development tools" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=rust,c,cpp,python,cs,html,css,js,ts,git,github,vscode&theme=dark" alt="Programming languages and development tools" />
+
+![FLTK](https://img.shields.io/badge/FLTK-1677FF?style=for-the-badge&logoColor=white)
+![Axum](https://img.shields.io/badge/Axum-000000?style=for-the-badge&logo=rust&logoColor=white)
 
 </div>
+
+**Languages | اللغات:** Rust, C, C++, Python, C#, HTML, CSS, JavaScript, TypeScript  
+**Tools | الأدوات:** Git, GitHub, VS Code, FLTK, Axum
 
 **Currently exploring | أستكشف حاليًا:** TypeScript, systems programming, and desktop application development.
 
